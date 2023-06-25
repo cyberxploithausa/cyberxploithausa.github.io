@@ -290,6 +290,29 @@ With basic tools such as whois, we can see roots of the IP address as `China`.
 
 -----------
 
+### Troubleshooting peedf issues
+
+In order to get peepdf working properly you need `pylibemu` and `PyV8`. Here's how:
+
+for pylibemu:
+
+```bash
+pip install pylibemu
+```
+
+for PyV8:
+
+```bash
+cd /usr/share
+sudo git clone https://github.com/emmetio/pyv8-binaries.git
+cd pyv8-binaries/
+sudo unzip pyv8-linux64.zip
+sudo cp -a PyV8.py _PyV8.so /usr/bin
+sudo cp -a PyV8.py _PyV8.so /usr/lib/python2.7/dist-packages/
+```
+
+------
+
 This brings me to the end of my blog post. I hope you got to learn a thing or two. I'm looking forward to doing and writing more of this kind of Maldoc challenges. If you found this helpful, feel free to share this with your networks, peers or your socials.
 
 Btw, if you have any questions, comments or feedback in regards to the same, feel free to reach me on twitter [@oste_ke](https://twitter.com/oste_ke). 
