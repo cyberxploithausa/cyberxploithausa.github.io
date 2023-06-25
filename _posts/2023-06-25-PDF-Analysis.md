@@ -317,6 +317,4 @@ This brings me to the end of my blog post. I hope you got to learn a thing or tw
 
 Btw, if you have any questions, comments or feedback in regards to the same, feel free to reach me on twitter [@oste_ke](https://twitter.com/oste_ke). 
 
-Until next time:
-
 ![ciao](https://media.giphy.com/media/zDpYQooxkwXkAWMxRK/giphy.gif)
