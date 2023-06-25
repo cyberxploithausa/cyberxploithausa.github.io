@@ -133,7 +133,7 @@ From the `DestinationPath` shown above, we see the name of the payload is `D0csz
 
 ## 3. What file type would this have been if it were created?
 
-Carefully looking at the payload name (`D0csz1p`). This seemed more like a `Doc.zip` to me, so i submitted zip as my answer.🙂
+Carefully looking at the payload name (`D0csz1p`). This seemed more like a `Docs.zip` to me, so i submitted zip as my answer.🙂
 
 `zip`
 
