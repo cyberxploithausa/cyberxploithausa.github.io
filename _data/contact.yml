@@ -14,16 +14,7 @@
 - type: hackthebox
   icon: "fas fa-cube"
   url: "https://app.hackthebox.com/profile/852124"
-
-#  type: rss
-#  icon: 'fas fa-rss'
-#  noblank: true
-
-# Uncomment and complete the url below to enable more contact options
-# -
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your mastodon account page
-# -
+  
 - type: LinkedIn
   icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
   url: "https://www.linkedin.com/in/yazeed-ahmed-93a62b219/" # Fill with your Linkedin homepage
