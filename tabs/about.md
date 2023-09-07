@@ -32,7 +32,7 @@ As part of my Job (detecting an catching the bad guys), i contribute to the Haus
 </p>
 <br>
 <hr>
-<h>Technologies That I have used</h>
+<h3>Technologies That I have used</h3>
 <br>
 <b>Operating Systems & Virtualisation Software</b>
 <div display="space-between" width="100px">
