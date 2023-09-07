@@ -3,7 +3,7 @@ layout: post
 title: "Trilium Notes (Self-Hosted)"
 date: 2023-01-05
 image: ../../assets/img/Posts/trilium.png
-categories: [HackTheBox]
+categories: [HackTheBox, Starting_Point]
 tags: [docker, trilium, notes, ubuntu, self-hosted]
 ---
 
