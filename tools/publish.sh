@@ -13,8 +13,8 @@ CATEGORIES=false
 TAGS=false
 LASTMOD=false
 
-git config user.email "coldfx@protonmail.ch"
-git config user.name "Mayank Deshmukh"
+git config user.email "cyberxploithausa...."
+git config user.name "Yazeed Ahmed"
 
 WORK_DIR="$(dirname $(dirname $(realpath "$0")))"
 

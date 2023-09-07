@@ -13,7 +13,7 @@
   noblank: true # open link in current tab
 - type: hackthebox
   icon: "fas fa-cube"
-  url: "https://www.hackthebox.eu/profile/210522"
+  url: "https://app.hackthebox.com/profile/852124"
 
 #  type: rss
 #  icon: 'fas fa-rss'

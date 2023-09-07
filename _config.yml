@@ -7,39 +7,40 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Oste's Blog # the main title
+title: CyberxploitHausa Blog # the main title
 
-tagline: CTF Player | DFIR | Blue Teamer # it will display as the sub-title
+tagline: CTF Player | Python Programmer | Red Teamer | Content Creator # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Realm of Knowledge
+  Security made easy
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: "https://05t3.github.io"
+url: "https://cyberxploit.github.io"
 
-author: Stephen Kageche # change to your full name
+author: Yazeed Ahmed # change to your full name
 
 avatar: /assets/img/Posts/dp.jpg # support internet resources
 
 github:
-  username: 05t3 # change to your github username
+  username: cyberxploit # change to your github username
 
 twitter:
-  username: oste_ke # change to your twitter username
+  username: cyberxploitHaus # change to your twitter username
 
 social:
-  name: Stephen Kageche # it will shows as the copyright owner in Footer
-  email: 05t3@protonmail.com # change to your email address
+  name: Cyberxploit Hausa # it will shows as the copyright owner in Footer
+  email: cyberxploit166@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/oste_ke # change to your twitter homepage
-    - https://github.com/05t3 # change to your github homepage
+    - https://twitter.com/cyberxploitHaus # change to your twitter homepage
+    - https://github.com/cyberxploit # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/stephen-kageche-591193196/
+    - https://www.facebook.com/cyberxploit166
+    - https://youtube.com/@CyberxploitHausa
+    #- https://www.linkedin.com/in/stephen-kageche-591193196/
 
-google_site_verification: CtBtIysuQ8b6k36FI7jqU-o34DRoA_sye50a-RNtPPY # change to your verification string
-
+google_site_verification: pr_GR5-437sD6ZlEzfmv4kiTms8j3LsRGItXozzNFug # change to your verification string
+#google-site-verification=
 #--------------------------
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
@@ -47,10 +48,10 @@ google_site_verification: CtBtIysuQ8b6k36FI7jqU-o34DRoA_sye50a-RNtPPY # change t
 baseurl: ""
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Africa/Nairobi
+timezone: Africa/Lagos
 
 google_analytics:
-  id: "G-CQSEKZB9L7" # Fill with your Google Analytics ID
+  id: "G-FFFL4VERQE" # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
