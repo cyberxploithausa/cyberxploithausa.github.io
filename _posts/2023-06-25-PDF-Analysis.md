@@ -3,7 +3,7 @@ layout: post
 title: "PDF Analysis"
 date: 2023-06-25
 image: ../../assets/img/Posts/pdf-analysis.png
-categories: [Lets Defend, Lets Defend - Medium]
+categories: [TryHackMe, Junior_Pentester]
 tags: [pdf, pdfid, pdf-parser, maldoc, strings, powershell, LOLBins, wmic]
 ---
 

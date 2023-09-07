@@ -3,7 +3,7 @@ layout: post
 title: "R2D2 Backdoor - Memory Forensics"
 date: 2022-11-15
 image: ../../assets/img/Posts/cyberconfinals.png
-categories: [CTF-TIME]
+categories: [HackTheBox]
 tags: [volatility, r2d2 backdoor]
 ---
 
