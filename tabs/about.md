@@ -32,6 +32,8 @@ As part of my Job (detecting an catching the bad guys), i contribute to the Haus
 </p>
 <br>
 <hr>
+<h>Technologies That I have used</h>
+<br>
 <b>Operating Systems & Virtualisation Software</b>
 <div display="space-between" width="100px">
 	<img align="left" width="45px" src="../../assets/img/Posts/resources/linux.svg" alt="Linux">
