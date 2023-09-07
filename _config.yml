@@ -22,7 +22,7 @@ author: Yazeed Ahmed # change to your full name
 avatar: /assets/img/Posts/dp.jpg # support internet resources
 
 github:
-  username: cyberxploit # change to your github username
+  username: cyberxploithausa # change to your github username
 
 twitter:
   username: cyberxploitHaus # change to your twitter username
@@ -33,11 +33,11 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/cyberxploitHaus # change to your twitter homepage
-    - https://github.com/cyberxploit # change to your github homepage
+    - https://github.com/cyberxploithausa # change to your github homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/cyberxploit166
     - https://youtube.com/@CyberxploitHausa
-    #- https://www.linkedin.com/in/stephen-kageche-591193196/
+    - https://www.linkedin.com/in/yazeed-ahmed-93a62b219/
 
 google_site_verification: pr_GR5-437sD6ZlEzfmv4kiTms8j3LsRGItXozzNFug # change to your verification string
 #google-site-verification=
@@ -63,7 +63,7 @@ google_analytics:
 
 disqus:
   comments: true # boolean type, the global switch for posts comments.
-  shortname: "stephenkageche" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: "cyberxploit" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 plugins:
   - jekyll-seo-tag
