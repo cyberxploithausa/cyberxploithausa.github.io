@@ -25,10 +25,10 @@ As part of my Job (detecting an catching the bad guys), i contribute to the Haus
 <hr>
 <!-- Github STATS -->
 <p align="left"> 
-	<img src="https://github-readme-stats.vercel.app/api?username=cyberxploit&show_icons=true&theme=radical" alt="cyberxploit"/>
+	<img src="https://github-readme-stats.vercel.app/api?username=cyberxploithausa&show_icons=true&theme=radical" alt="cyberxploithausa"/>
 </p>
 <p align="left"> 
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberxploit&layout=compact&theme=radical" alt="cyberxploit" />
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberxploithausa&layout=compact&theme=radical" alt="cyberxploithausa" />
 </p>
 <br>
 <hr>
