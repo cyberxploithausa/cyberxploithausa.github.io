@@ -55,9 +55,9 @@ As part of my Job (detecting an catching the bad guys), i contribute to the Haus
 <hr>
 <b>Coding Arsenal</b>
 <div display="flex" align="left" justify-content="space-between" align-items="centre" width="100%">
-	<img width="45px" align="right" src="../../assets/img/Posts/resources/Vimlogo.svg" alt="Vim">
-	<img width="45px" align="right" src="../../assets/img/Posts/resources/Visual_Studio_Code_1.35_icon.svg" alt="Vscode">
-	<img width="45px" align="right" src="../../assets/img/Posts/resources/sublime-text.svg" alt="Sublime">
+	<img width="45px" align="left" src="../../assets/img/Posts/resources/Vimlogo.svg" alt="Vim">
+	<img width="45px" align="left" src="../../assets/img/Posts/resources/Visual_Studio_Code_1.35_icon.svg" alt="Vscode">
+	<img width="45px" align="left" src="../../assets/img/Posts/resources/sublime-text.svg" alt="Sublime">
 	
 </div>
 <br>
