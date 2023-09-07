@@ -25,10 +25,10 @@ As part of my Job (detecting an catching the bad guys), i contribute to the Haus
 <hr>
 <!-- Github STATS -->
 <p align="left"> 
-	<img src="https://github-readme-stats.vercel.app/api?username=cyberxploit&show_icons=true&theme=radical" alt="cyberxploit"/>
+	<img src="https://github-readme-stats.vercel.app/api?username=cyberxploithausa&show_icons=true&theme=radical" alt="cyberxploithausa"/>
 </p>
 <p align="left"> 
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberxploit&layout=compact&theme=radical" alt="cyberxploit" />
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberxploithausa&layout=compact&theme=radical" alt="cyberxploithausa" />
 </p>
 <br>
 <hr>
@@ -73,12 +73,12 @@ As part of my Job (detecting an catching the bad guys), i contribute to the Haus
 <b>CTF's</b>
 <div display="flex" align="left" justify-content="space-between" align-items="centre" width="100%">
 	<img align="left" width="55px" src="https://assets.tryhackme.com/img/logo/tryhackme_logo_full.svg" alt="thm">
-	<img align="left" width="65px" src="	https://picoctf.org/img/logos/picoctf-logo-horizontal-white.svg
+	<img align="left" width="70px" src="	https://picoctf.org/img/logos/picoctf-logo-horizontal-white.svg
 " alt="picoCTF">
-	<img align="left" width="70px" src="https://app.hackthebox.eu/images/logos/logo-htb.svg" alt="htb">
+	<img align="left" width="75px" src="https://app.hackthebox.eu/images/logos/logo-htb.svg" alt="htb">
 	<img align="left" width="45px" src="https://blueteamlabs.online/images/logo.png" alt="btlo">
 	<img align="left" width="60px" src="https://cybertalents.com/images/logo-footer.png" alt="Cybertalent">
-	<img align="left" width="65px" src="https://www.qbssoftware.com/image/cache/catalog/qbs/burpsuite-250x250.png" alt="portswigger">
+	<img align="left" width="70px" src="https://www.qbssoftware.com/image/cache/catalog/qbs/burpsuite-250x250.png" alt="portswigger">
 </div>
 <br>
 <hr>
