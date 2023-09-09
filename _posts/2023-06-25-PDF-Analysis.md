@@ -6,15 +6,15 @@ image: ../../assets/img/Posts/pdf-analysis.png
 categories: [TryHackMe, Junior_Pentester]
 tags: [pdf, pdfid, pdf-parser, maldoc, strings, powershell, LOLBins, wmic]
 ---
-
+- `CREDIT: [0st3](0st3.github.io)`
 Welcome back to yet another blog post where I will be tackling a Maldoc kinda challenge from [Lets Defend](https://app.letsdefend.io/). This is a medium rated challenge prepared by [@DXploiter](https://twitter.com/DXploiter) called **[PDF Analysis](https://app.letsdefend.io/challenge/pdf-analysis)**. 
 
 We are told that an employee has received a suspicious email with the following contents:
 
-> **From**: SystemsUpdate@letsdefend.io 
-> **To**: Paul@letsdefend.io 
-> **Subject**: Critical - Annual Systems UPDATE NOW 
-> **Body**: Please do the dutiful before the deadline today. 
+> **From**: SystemsUpdate@letsdefend.io \
+> **To**: Paul@letsdefend.io \
+> **Subject**: Critical - Annual Systems UPDATE NOW \
+> **Body**: Please do the dutiful before the deadline today. \
 > **Attachment**: [Update.pdf](https://drive.google.com/file/d/1_P5rsU1LCHYW--36TbhYqA841VeAZ6VE/view) Password: `letsdefend`
 
 The employee has reported this incident to us and mentioned that they did not download or open the attachment as they found it very suspicious. With this in mind, i proceeded to download the attachment from [GoogleDrive](https://drive.google.com/file/d/1_P5rsU1LCHYW--36TbhYqA841VeAZ6VE/view) and extracted it with the password: `letsdefend`
