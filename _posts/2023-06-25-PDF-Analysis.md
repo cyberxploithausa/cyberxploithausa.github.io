@@ -6,7 +6,7 @@ image: ../../assets/img/Posts/pdf-analysis.png
 categories: [Forensics]
 tags: [pdf, pdfid, pdf-parser, maldoc, strings, powershell, LOLBins, wmic]
 ---
-- `CREDIT: [0st3](https://0st3.github.io)`
+- `CREDIT: ` [0st3](https://0st3.github.io)
 Welcome back to yet another blog post where I will be tackling a Maldoc kinda challenge from [Lets Defend](https://app.letsdefend.io/). This is a medium rated challenge prepared by [@DXploiter](https://twitter.com/DXploiter) called **[PDF Analysis](https://app.letsdefend.io/challenge/pdf-analysis)**. 
 
 We are told that an employee has received a suspicious email with the following contents:
