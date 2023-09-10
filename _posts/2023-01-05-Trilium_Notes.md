@@ -7,6 +7,9 @@ categories: [HackTheBox, Starting_Point]
 tags: [docker, trilium, notes, ubuntu, self-hosted]
 ---
 
+`Credit`[0st3](https://0st3.github.io)
+<hr>
+<br>
 Hello and happy new year. Welcome to my first blog in '23 where i will be showing you how easy you can self-host your note-taking application at home. I feel like the search for a good notetaking platform is never-ending. I've been using Github Gists, Obsidian and Notion for preety much 2 years now but this year i decided to try something new. Trilium Notes, a project by [zadam](https://github.com/zadam/trilium/) is a hierarchical note taking application with focus on building large personal knowledge bases.
 
 It is provided as either desktop application (Linux and Windows) or web application hosted on your server (Linux). Mac OS desktop build is available, but it is [unsupported](https://github.com/zadam/trilium/wiki/FAQ#mac-os-support).
