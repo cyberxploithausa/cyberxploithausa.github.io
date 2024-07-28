@@ -15,7 +15,8 @@ The account can be used to enumerate various API endpoints, one of which can be 
 ---
 ## Machine Reconnaissance
 We first start by performing an nmap scan on the box which will show us more information about the box.
-> IP: 10.10.11.221
+- IP: 10.10.11.221
+
 ```bash
 nmap -sC -sV -p- -vv 10.10.11.221
 ```
