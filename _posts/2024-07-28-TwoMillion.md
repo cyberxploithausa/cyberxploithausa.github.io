@@ -206,11 +206,11 @@ echo "MFVKU0ctM1gwMkwtTlNSNkgtMEVENE4=" | base64 -d
 ```
 
 > Invitation Code generated above
-	0UJSG-3X02L-NSR6H-0ED4N
+- 0UJSG-3X02L-NSR6H-0ED4N
 
 I used the above invitation code to register for an account at `2million.htb/invite` which redirects me to login after successfully created an account using the invitation code.
 
-![[Pasted image 20240727180050.png]]
+![[../../assets/img/Posts/2million_dashboard.png]]
 upon looking at the box, i navigate to the tabs and luckily i came across the `access tab`
 
 
