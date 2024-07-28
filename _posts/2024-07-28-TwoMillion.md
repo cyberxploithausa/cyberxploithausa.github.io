@@ -44,7 +44,7 @@ PORT   STATE SERVICE REASON  VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 =========================================================================
 ```
-
+----
 Clearly the above show us that there are two open ports running on the box. `port 22[ssh]` and `port 80[http]`. Therefore lets perform files and directory fuzzing using the `wfuzz` tool (mind you, you can use any directory bruteforcer or fuzzing tool like gobuster, ffuf, dirbuster, feroxbuster).
 But before we do that, we first add the `IP` to the `/etc/hosts` file by running the `sudo echo "10.10.11.221 2million.htb" > /etc/hosts` So that when ever we type the `2million.hbt` in our terminal or browser our local system understands that we are trying to refer to the `IP`.
 
