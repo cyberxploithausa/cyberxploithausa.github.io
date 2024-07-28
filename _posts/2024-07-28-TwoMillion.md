@@ -90,8 +90,8 @@ ID           Response   Lines    Word       Chars       Payload
 As for the directory and With the above fuzzings, There is no valueable information for us to go after.
 
 ## Code Review
--> view-source:http://2million.htb/invite
--> view-source:http://2million.htb/js/inviteapi.min.js
+-- view-source:http://2million.htb/invite
+-- view-source:http://2million.htb/js/inviteapi.min.js
 
 
 ```javascript
