@@ -7,15 +7,24 @@ categories: [HackTheBox, Starting_Point]
 tags: [twomillion, 2million, htb, hackthebox]
 ---
 
-This was a test message. Trying to figure out somethings. i hope am doing the correct thing here.
+Welcome back to yet another blog post where I will be tackling a [Twomillion](https://app.hackthebox.com/machines/TwoMillion) kinda challenge from HackTheBox. 
+TwoMillion is an Easy difficulty Linux box that was released to celebrate reaching 2 million users on HackTheBox. 
+The box features an old version of the HackTheBox platform that includes the old hackable invite code. After hacking the invite code an account can be created on the platform. 
+The account can be used to enumerate various API endpoints, one of which can be used to elevate the user to an Administrator. 
 
 ---
 ## Machine Reconnaissance
+We first start by performing an nmap scan on the box which will show us more information about the box.
+> IP: 10.10.11.221
+```bash
+nmap -sC -sV -p- -vv 10.10.11.221
+```
+Having done the scan below are some of  the result we uncover
 ```bash
 =========================================================================
 [OS]: Linux (Ubuntu)
 
-[Web-Technology]: Python3 {WerkZurgs}
+[Web-Technology]: nginx
 
 [Hostname]: 2million
 
@@ -36,6 +45,18 @@ PORT   STATE SERVICE REASON  VERSION
 |_  Supported Methods: OPTIONS
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 =========================================================================
+```
+Clearly the above show us that there are two open ports running on the box. `port 22[ssh]` and `port 80[http]`. Therefore lets perform files and directory fuzzing using the `wfuzz` tool (mind you, you can use any directory bruteforcer or fuzzing tool like gobuster, ffuf, dirbuster, feroxbuster).
+But before we do that, we first add the `IP` to the `/etc/hosts` file by running the `sudo echo "10.10.11.221 2million.htb" > /etc/hosts` So that when ever we type the `2million.hbt` in our terminal or browser our local system understands that we are trying to refer to the `IP`.
+
+### Files Fuzzing
+```bash
+export URL="http://2million.htb/FUZZ"
+wfuzz -c -z file,/usr/share/wordlists/seclists/Discovery/Web-Content/raft-medium-files.txt --hc 404 "$URL"
+```
+Below is the result for file on the website:
+```bash
+
 [Web Services Enumeration]: port 80
 # Files
 =====================================================================
@@ -45,6 +66,18 @@ ID           Response   Lines    Word       Chars       Payload
 000000001:   301        7 L      11 W       162 Ch      "index.php"                                                                                           
 000000004:   301        7 L      11 W       162 Ch      "login.php"
 
+```
+These two results we obtain got me nervous and i will like to visit both and also will like to look at their `Page Source Code`.
+I notice in the page source of index.php, i notice a `href` that is pointing to `http://2million.htb/invite` which got me curious. I also quickly visit the page and vview the page source of that link also.
+
+### Directory Fuzzing
+```bash
+export URL="https://2million.htb/FUZZ/"
+wfuzz -c -z file,/usr/share/wordlists/seclists/Discovery/Web-Content/raft-medium-directories.txt --hc 404 "$URL" 
+
+```
+Below is the result for directories on the website:
+```bash
 # Directories
 =====================================================================
 ID           Response   Lines    Word       Chars       Payload          
@@ -54,9 +87,12 @@ ID           Response   Lines    Word       Chars       Payload
 
 ======================================================================
 ```
+As for the directory and With the above fuzzings, There is no valueable information for us to go after.
 
-# Code to look into 
+## Code Review
 -> view-source:http://2million.htb/invite
+-> view-source:http://2million.htb/js/inviteapi.min.js
+
 
 ```javascript
 
@@ -91,7 +127,7 @@ ID           Response   Lines    Word       Chars       Payload
     </script>
 ```
 
-When submit button is pressed, data are  been posted to `/api/v1/invite/verify`
+While reviewing the above code, I noticed that When submit button is pressed, data are  been posted to `/api/v1/invite/verify`
 
 and i noticed the view-source:http://2million.htb/js/inviteapi.min.js which contain an obfuscated javascript code below.
 
