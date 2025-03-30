@@ -3,7 +3,7 @@ layout: post
 title: "TwoMillion Walkthrough"
 date: 2024-07-28
 image: ../../assets/img/Posts/TwoMillion.png
-categories: [HackTheBox, Starting_Point]
+categories: [HackTheBox]
 tags: [twomillion, 2million, htb, hackthebox]
 ---
 
