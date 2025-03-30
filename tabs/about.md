@@ -13,7 +13,7 @@ title: Welcome to Cyberxploit Hausa Page
 You are visitor number <img src="https://profile-counter.glitch.me/cyberxploit/count.svg" />
 <hr>
 <img align="right" alt="GIF" src="../../assets/img/Posts/resources/code.gif" width="375" height="240" />
-Red teaming at night and Blue teaming by day.😅 I am a Penetration Tester & Self-taught Programmer and Bug Hunter with keen interest in Security Researching and Network auditing. I also specialize in Open Source Intelligence (OSINT). During my free time, i create content on youtube and i enjoy messing around with my homelab, Coding simple projects, reading technical blogs, bug reports and current affairs. I enjoy playing CTF's with the [Hausa-Hackers](https://twitter.com/hausahackers) team where i majorly focus on Web apps, general and forensics challenges etc.
+Red teaming at night and Blue teaming by day.😅 I am a Penetration Tester, Self-taught Programmer and also a Bug Hunter with keen interest in Security Researching and Network auditing. I also specialize in Open Source Intelligence (OSINT). During my free time, i create content on youtube and i enjoy messing around with my homelab, Coding simple projects, reading technical blogs, bug reports and current affairs. I enjoy playing CTF's with the [Hausa-Hackers](https://twitter.com/hausahackers) team where i majorly focus on Web apps, general and forensics challenges etc.
 
 <br>
 As part of my Job (detecting an catching the bad guys), i contribute to the Hausa Community by sharing my knowledge as an instructor at: [Hausa Academy](https://hausaacademy.com/portal/teachers), [Yusmu-IT](https://yusmuitsolutions.com), [North-Demy](https://northdemy.com/instructors)
