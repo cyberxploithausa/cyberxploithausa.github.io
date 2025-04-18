@@ -1,42 +1,24 @@
 ---
-title: agent_sudo
-platform: TryHackMe
-difficulty:
-  - ⭐️⭐️⭐️⭐️⭐️
-status: true
-date: 2025-08-04
-ip: 10.10.189.142
-category:
-  - Web
-  - crytography
-url: https://tryhackme.com/room/agentsudoctf
-tags:
-  - bruteforce
-  - hydra
-  - johntheripper
-  - Linux
-  - agent
-  - sudo
-  - burpsuite
-  - webmin
-os: Ubuntu Linux
+layout: post
+title: "Agent Sudo"
+date: 2025-04-16
+image: ../../assets/img/Posts/TwoMillion.png
+categories: [TryHackMe]
+tags: [agent-sudo, agent, sudo, tryhackme]
 ---
-# About
 
-- By Yazeed Ahmed alias CyberxploitHausa | 17-11-2023
+Welcome back to yet another blog post where I will be tackling a [Agent_Sudo](https://tryhackme.com/room/agentsudoctf)
 
-```
-==================================================================================
 OS:  Ubuntu
 Web-Technology:   Apache httpd 2.4.29 ((Ubuntu))
 Hostname:  agent_sudo
 IP:  10.10.189.142
 USER:   james, chris, 
 Category: Web / Linux
-==================================================================================
-```
------------------------------------------------------------------------------
-# Enumeration
+
+
+---
+## Enumeration
 
 ### Network Enumeration
 
@@ -230,7 +212,7 @@ wrote extracted data to "message.txt".
 ```
 
 
------------------------------------------------------------------------------
+---
 # Foothold
 
 After extracting the the [[message.txt]] file from [[cute-alien.jpg]] image file, it seems we now have all information that we need to connect to the machine with the user `james` and the password `hackerrules!` via `ssh`. 
@@ -241,7 +223,7 @@ After extracting the the [[message.txt]] file from [[cute-alien.jpg]] image file
 ssh james@$IP
 ```
 
------------------------------------------------------------------------------
+---
 # Pivoting
 
 
