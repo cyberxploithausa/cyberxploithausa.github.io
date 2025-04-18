@@ -9,12 +9,15 @@ tags: [agent-sudo, agent, sudo, tryhackme]
 
 Welcome back to yet another blog post where I will be tackling a [Agent_Sudo](https://tryhackme.com/room/agentsudoctf)
 
-OS:  Ubuntu
-Web-Technology:   Apache httpd 2.4.29 ((Ubuntu))
-Hostname:  agent_sudo
-IP:  10.10.189.142
-USER:   james, chris, 
-Category: Web / Linux
+
+# About Machine
+
+- OS:  Ubuntu
+- Web-Technology:   Apache httpd 2.4.29 ((Ubuntu))
+- Hostname:  agent_sudo
+- IP:  10.10.189.142
+- USER:   james, chris, 
+- Category: Web / Linux
 
 
 ---
