@@ -309,7 +309,7 @@ root@agent-sudo:~#
 
 # 🔗 References
 
-- [sudo 1.8.27 - Security Bypass - Linux local Exploit](https://www.exploit-db.com/exploits/47502)]  
+- [Sudo 1.8.27 - Security Bypass - Linux local Exploit](https://www.exploit-db.com/exploits/47502)]  
 - [Roswell Alien Autopsy](https://www.foxnews.com/science/filmmaker-reveals-how-he-faked-infamous-roswell-alien-autopsy-footage-in-a-london-apartment)
 ---
 
